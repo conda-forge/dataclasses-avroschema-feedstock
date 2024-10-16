@@ -1,5 +1,5 @@
 {% set name = "dataclasses-avroschema" %}
-{% set version = "0.63.5" %}
+{% set version = "0.63.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dataclasses_avroschema-{{ version }}.tar.gz
-  sha256: 6eaa076df9e973af6f777bbbaa1a30e5352253e7d4dd4623e2ef9c40a861295a
+  sha256: 888f69afce9a7c3a12003529718ec524a27250786afcb93aa28eec63e517fb39
 
 build:
   noarch: python
